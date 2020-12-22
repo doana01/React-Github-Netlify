@@ -6,7 +6,7 @@
   background-size: 120%;
   border: 1px solid #868484;
   border-radius: 20px;
-  padding: 45px;
+  padding: 30px;
   box-shadow: inset 0px 0px 60px rgba(13, 27, 29, 0.7);
 }
 .Weather.overview {
@@ -18,7 +18,6 @@
   font-family: Candara;
   padding-bottom: 2px;
   font-weight: 500;
-  line-height: 10px;
 }
 .weather-temperature img {
   margin-right: 10px;
@@ -28,7 +27,7 @@
 }
 .weather-temperature strong {
   color: #878787;
-  font-size: 70px;
+  font-size: 60px;
   font-family: Candara;
   padding-top: 5px;
   line-height: 100px;

@@ -1,7 +1,7 @@
 .App {
-  max-width: 380px;
+  max-width: 350px;
   text-align: center;
-  margin: 50px auto;
+  margin: 40px auto;
 }
 body {
   font-family: arial, sans-serif;
@@ -26,11 +26,11 @@ body {
 }
 h1 {
   color: #878787;
-  font: size 50px;
+  font: size 60px;
   font-family: Candara;
-  padding-bottom: 2px;
+  padding-bottom: 10px;
   font-weight: 500;
-  line-height: 7px;
+  line-height: 15px;
 }
 ul {
   margin: 0;
@@ -55,19 +55,22 @@ li {
   text-decoration: none;
 }
 button {
-  border: 1px solid #a0b9da;
-  border-radius: 15px;
+  border: 1px solid rgba(135, 135, 135);
+  border-radius: 5px;
 }
 .btn-icon {
   position: relative;
-  left: 25px;
-  bottom: 39px;
-  font-size: 11px;
+  left: 0px;
+  bottom: 20px;
+  font-size: 10px;
+  color: rgb(114, 113, 113);
 }
 .shadow-sm {
   position: relative;
-  right: 30px;
+  left: 105px;
+  bottom: 27px;
   font-size: 11px;
+  color: rgb(114, 113, 113);
 }
 footer {
   text-align: center;
@@ -92,6 +95,7 @@ a {
   padding-left: 20px;
 }
 .form-control {
-  margin-bottom: 20px;
   font-size: 11px;
+  margin-top: 10px;
+  margin-right: 55px;
 }

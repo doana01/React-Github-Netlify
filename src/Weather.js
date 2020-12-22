@@ -30,7 +30,7 @@ export default function Weather() {
                     </div>
                 </div>
                 <div className="col-2">
-                    <button className="btn btn-success  btn-icon">Current</button>
+                    <button className="btn btn-success  btn-icon"> Current </button>
                 </div>
             </form>
             <div className="overview">
