@@ -4,26 +4,34 @@
   background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
   background-blend-mode: multiply;
   background-size: 120%;
-  border: 1px solid #dadde1;
+  border: 1px solid #868484;
   border-radius: 20px;
-  padding: 40px;
+  padding: 45px;
   box-shadow: inset 0px 0px 60px rgba(13, 27, 29, 0.7);
 }
 .Weather.overview {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-.Weather.weather-temperature img {
+.weather-temperature h1 {
+  color: #878787;
+  font: size 60px;
+  font-family: Candara;
+  padding-bottom: 2px;
+  font-weight: 500;
+  line-height: 10px;
+}
+.weather-temperature img {
   margin-right: 10px;
-  margin-top: 20px;
+  margin-top: 0px;
   height: 64px;
   width: 64px;
 }
 .weather-temperature strong {
   color: #878787;
-  font-size: 65px;
+  font-size: 70px;
   font-family: Candara;
-  padding-top: 23px;
-  line-height: 120px;
+  padding-top: 5px;
+  line-height: 100px;
   font-weight: 500;
 }
 .weather-temperature .units {
@@ -38,7 +46,7 @@
   border-radius: 5px;
   padding-top: 5px;
 }
-.Weather.weather-forecast h3 {
+.weather-forecast h3 {
   color: rgb(186, 186, 186);
   font-size: 14px;
   font-weight: 400;
@@ -46,11 +54,12 @@
   height: 5px;
   padding-top: 7px;
 }
-.Weather.weather-forecast img {
+.weather-forecast img {
   display: block;
   margin: 0 auto;
   height: 48px;
   width: 48px;
+  padding-bottom: 10px;
 }
 .Weather.weather-forecast-temperature {
   text-align: center;
