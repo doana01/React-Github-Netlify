@@ -1,38 +1,97 @@
 .App {
+  max-width: 400px;
   text-align: center;
+  margin: 40px auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: arial, sans-serif;
+  background-image: linear-gradient(to left, #bdbbbe 0%, #9d9ea3 100%),
+    radial-gradient(
+      88% 271%,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(254, 254, 254, 0.25) 1%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    radial-gradient(
+      50% 100%,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    );
+  background-blend-mode: normal, lighten, soft-light;
+  background-blend-mode: multiply;
+  background-size: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  padding-top: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+  color: #878787;
+  font: size 40px;
+  font-family: Candara;
+  padding-bottom: 5px;
+  font-weight: 500;
+  line-height: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+ul {
+  margin: 0;
+  padding: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  color: rgb(246, 250, 255);
+  font-size: 15px;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: 100px;
+  height: 18px;
+  line-height: 1px;
+  list-style: none;
+}
+.active {
+  color: rgba(135, 135, 135);
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+}
+button {
+  border: 1px solid #dadde1;
+  border-radius: 20px;
+}
+.btn-icon {
+  position: relative;
+  left: 25px;
+  bottom: 38.5px;
+  font-size: 11px;
+}
+.shadow-sm {
+  position: relative;
+  right: 30px;
+  font-size: 11px;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  font-family: Candara;
+  font-weight: 400;
+  padding-top: 10px;
+}
+a {
+  color: rgb(67, 73, 82);
+}
+.orange-kids {
+  position: relative;
+  top: 20px;
+  right: 45px;
+}
+.windy-link {
+  color: rgb(126, 151, 160);
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0px;
+  padding-left: 20px;
+}
+.form-control {
+  margin-bottom: 20px;
+  font-size: 11px;
 }
