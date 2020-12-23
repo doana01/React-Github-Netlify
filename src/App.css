@@ -21,8 +21,8 @@ body {
   background-blend-mode: multiply;
   background-size: 100%;
 }
-.container {
-  padding-top: 30px;
+.Weather {
+  padding-top: 40px;
 }
 h1 {
   color: #878787;
