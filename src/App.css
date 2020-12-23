@@ -28,9 +28,9 @@ h1 {
   color: #878787;
   font: size 60px;
   font-family: Candara;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-weight: 500;
-  line-height: 15px;
+  line-height: 20px;
 }
 ul {
   margin: 0;
@@ -56,7 +56,7 @@ li {
 }
 button {
   border: 1px solid rgba(135, 135, 135);
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .btn-icon {
   position: relative;
@@ -98,4 +98,6 @@ a {
   font-size: 11px;
   margin-top: 10px;
   margin-right: 55px;
+  border: 1px solid rgba(135, 135, 135);
+  border-radius: 3px;
 }

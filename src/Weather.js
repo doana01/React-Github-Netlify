@@ -20,17 +20,17 @@ export default function Weather() {
                     <div className="col-8">
                         <input
                             type="search"
-                            placeholder="Type a City name.."
+                            placeholder="  Type a City name.. ☕"
                             className="form-control"
                             autocomplete="off"
                         />
                     </div>
                     <div className="col-2">
-                        <button className="form-control btn btn-primary shadow-sm">Search</button>
+                        <button className="form-control btn btn-primary shadow-sm">search</button>
                     </div>
                 </div>
                 <div className="col-2">
-                    <button className="btn btn-success  btn-icon"> Current </button>
+                    <button className="btn btn-success  btn-icon"> My location </button>
                 </div>
             </form>
             <div className="overview">
